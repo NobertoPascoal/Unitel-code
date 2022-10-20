@@ -4,13 +4,275 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
     <title>Document</title>
 </head>
 <body>
 
-   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quam officiis error eius mollitia, quos voluptate dolor laboriosam eligendi blanditiis cumque, ex dolorum aliquam, impedit culpa sint minus corporis iusto?</p>
+    <header>
+        <div class="menu-bg">
+          <nav class="menu">
+            <div class="menu_logo">
+              <a href="Pratica1.html"> <img src="img/logo.png" alt="" /></a>
+            </div>
+            <button
+            class="btn_meno w3-button  w3-xlarge" 
+            onclick="w3_open()"
+            > ☰ </button>
+            <div class="nav" id="abrir">
+              <ul class="nav_lista">
 
-   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda exercitationem cumque quos. Unde earum iure eligendi! Quo ratione iste accusantium soluta. Fugit optio ducimus vero omnis cumque voluptatibus aut minima.</p>
-    
+                <li><a href="somos">Qem Somos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <h1 class="intro">
+          Aprenda a programar <br />
+          Um projecto
+        </h1>
+        <hr />
+      </header>
+
+
+      <section class="somos" id="somos">
+        <h2 class="sessao_titulo">Quem somos</h2>
+  
+        <div class="somos_corpo">
+          <div class="somos_texto">
+            <p>
+              Mussum Ipsum, cacilds vidis litro aberti levo! im Atirei o pau no
+              gatis, per gatis num mori
+            </p>
+  
+            <br />
+  
+            ampola pa arma uma pindureta.
+  
+            <p>
+              Copo furadis é disculpa de bebadis, arcu turpis scelerisque, eget.
+              Interagi no mé, cursu lupuliz, matis, aguis e fermentis.
+            </p>
+          </div>
+  
+          <div class="somos_imagem">
+            <img src="./img/somos.png" alt="Quem somos" />
+          </div>
+        </div>
+        <hr>
+      </section>
+
+
+      <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo">Nossos Cursos</h2>
+  
+        <div class="curso_corpo">
+          <div class="curso">
+            <img
+              src="img/ai.png"
+              alt="Inteligência Artificial"
+              class="curso__img"
+            />
+  
+            <h3 class="curso_titulo">Inteligencia Artificial</h3>
+  
+            <p class="curso_descricao">
+              Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+              Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+            </p>
+          </div>
+  
+          <div class="curso">
+            <img src="img/front.png" alt="Frontend" class="curso__img" />
+            <h3 class="curso titulo">Frontend</h3>
+  
+            <p class="curso descricao">
+              Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+              Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+            </p>
+          </div>
+  
+          <div class="curso">
+            <img
+              src="img/seguranca.png"
+              alt="Segurança da Informação"
+              class="curso__img"
+            />
+  
+            <h3 class="curso_titulo">Segurança da Informação</h3>
+  
+            <p class="curso descricao">
+              Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+              Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+            </p>
+          </div>
+        </div>
+        
+              <hr>
+      </section>
+
+      <section class="planos" id="planos">
+      <h2 class="sessao_titulo">Planos</h2>
+
+      <div class="planos_corpo">
+        <div class="plano">
+          <h2 class="plano_titulo">Básico</h2>
+
+          <span class="plano_preco"><sup>R$</sup>25</span>
+          <hr class="plano_divisor" />
+
+          <ul class="plano-lista">
+            <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+
+            <li class="plano-lista_item">Acesso a todos os cursos</li>
+
+            <li class="plano-lista_item">Certificado de conclusão</li>
+          </ul>
+
+          <a href="#" class="plano_btn-comprar">Comprar</a>
+        </div>
+
+        <div class="plano">
+          <h2 class="plano_titulo">Premium</h2>
+
+          <span class="plano_preco"><sup>R$</sup>40</span>
+
+          <hr class="plano_divisor" />
+          <ul class="plano-lista">
+            <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+
+            <li class="plano-lista_item">Acesso a todos os cursos</li>
+
+            <li class="plano-lista_item">Certificado de conclusão</li>
+
+            <li class="plano-lista_item">Suporte</li>
+          </ul>
+
+          <a href="#" class="plano_btn-comprar">Comprar</a>
+        </div>
+
+        <div class="plano">
+          <h2 class="plano_titulo">Ultra</h2>
+
+          <span class="plano_preco"><sup>R$</sup>25</span>
+          <hr class="plano_divisor" />
+
+          <ul class="plano-lista">
+            <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+
+            <li class="plano-lista_item">Acesso a todos os cursos</li>
+            <li class="plano-lista_item">Certificado de conclusão</li>
+
+            <li class="plano-lista_item">Suporte</li>
+            <li class="plano-lista_item">Download das aulas</li>
+          </ul>
+
+          <a href="#" class="plano_btn-comprar">Comprar</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Foco em Projecto</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+  
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Protifolio incrivel</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+  
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Aprenda Fazendo</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+  
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Para todas Idades</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+  
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Atualizado</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+  
+        <div class="vantagem">
+          <h2 class="vantagem_titulo">Comece hoje</h2>
+          <p class="vantagem_descricao">
+            Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.
+            Nullam a nisl ut ante blandit hendrerit. Aeneansit amet nisi.
+          </p>
+        </div>
+      </section>
+
+
+      <section class="newsletter">
+        <div class="newsletter-container">
+          <div class="newsletter-info">
+            <h2 class="newsletter-info titulo">newsletter</h2>
+  
+            <p class="newsletter-info_descricao">
+              Assine e fique por dentro das novidades
+            </p>
+          </div>
+  
+          <form action="" class="newsletter-form">
+            <input
+              type="text"
+              placeholder="seu e-mail"
+              class="newsletter-form_input"
+            />
+            <button type="submit" class="newsletter-form_submit">Assinar</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer_copyright">
+          Este é um projecto que servirá de maquete, para o vosso projecto final
+        </p>
+  
+        <a href="index.html">
+          <img src="img/logo.png" alt="Frontbox" class="footer_logo" />
+        </a>
+      </footer>
+
+
+
+      <script>
+        function w3_open() {
+        /*    document.getElementById("abrir").style.display = "block";*/
+        var x = document.getElementById("abrir");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}  
+        
+        
+       
+        </script>
+
 </body>
 </html>
